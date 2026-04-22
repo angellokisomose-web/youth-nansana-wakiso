@@ -4,7 +4,7 @@ import type { Entry } from "./types";
 let entries: (Entry & { id: string })[] = [
   {
     id: "1",
-    contact: "John Doe",
+    contact: "YOUTH NANSANA",
     location: "Wakiso",
     cellNumber: "1234567890",
     age: "HM",
@@ -12,7 +12,7 @@ let entries: (Entry & { id: string })[] = [
   },
   {
     id: "2",
-    contact: "Jane Smith",
+    contact: "YOUTH NANSANA",
     location: "Wakiso",
     cellNumber: "0987654321",
     age: "MH",
