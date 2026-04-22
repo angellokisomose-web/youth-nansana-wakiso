@@ -11,7 +11,7 @@ const FormSchema = z.object({
   contact: z.string().min(1, "Contact name is required."),
   location: z.string().min(1, "Location is required."),
   cellNumber: z.string().min(10, "A valid cell number is required."),
-  age: z.enum(["HM", "MH"], { required_error: "Age category is required." }),
+  age: z.enum(["History Maker", "Morpher"], { required_error: "Age category is required." }),
   date: z.string().min(1, "Date is required."),
 });
 
